@@ -1,0 +1,12 @@
+.text_style {
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 3px;
+}
+.radioContainer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}

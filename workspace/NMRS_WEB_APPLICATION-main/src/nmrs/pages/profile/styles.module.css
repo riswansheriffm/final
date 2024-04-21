@@ -1,0 +1,42 @@
+.imageCard {
+  width: 100% !important;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.imageDisplay {
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.customInput {
+  color: transparent;
+  border: none !important;
+  position: absolute;
+  top: 0;
+  right: -53%;
+}
+.customInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.customInput::before {
+  content: "\f304";
+  font-family: FontAwesome;
+  color: black;
+  display: inline-block;
+  letter-spacing: 2px;
+  background-color: rgb(243, 238, 238);
+
+  border-radius: 50%;
+  padding: 5px 7px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,16 @@
+.form-control-label {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 900;
+
+}
+
+.tableHeader {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.noDataMessage {
+    color: #ff0000;
+    /* Change to the color you prefer for the "No data available" message */
+}

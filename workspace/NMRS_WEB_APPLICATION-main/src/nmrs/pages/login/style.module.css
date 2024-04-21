@@ -1,0 +1,82 @@
+/* ForgotPassword.css */
+
+.forgot_password_container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--secondary-6);
+    border-radius: 8px;
+    background-color: var(--secondary-4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10rem;
+}
+
+.input_Email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--secondary-12);
+    border-radius: 4px;
+
+}
+
+.error_message {
+    color: var( --primary-5);
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reset_button{
+    background-color: var(--primary-6);
+    color: var(--pure-white);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.button_verify{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reset-button:hover {
+    background-color: var(--primary-4);
+}
+
+.Keys_of_forgotpassword{
+    text-align: center;
+}
+
+.text_forgotpassword{
+    font-size: 15px;
+    font-weight: bold;
+}
+.left-arrow{
+    font-size: 10px;
+    color: var(--pure-black);
+}
+.label_forgotpassword{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--pure-black);
+}
+
+.password_input_container {
+    position: relative;
+  }
+  
+.password-toggle-icon {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
